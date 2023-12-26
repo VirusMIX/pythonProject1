@@ -6,6 +6,6 @@ def bubble_sort(nums):
                 nums[j], nums[j + 1] = nums[j + 1], nums[j]
 
 
-numbers = [5, 2, 9, 1, 6]
+numbers = [8, 4, 2, 1, 5]
 bubble_sort(numbers)
 print(numbers)
